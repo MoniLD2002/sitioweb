@@ -1,0 +1,21 @@
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 16px; /* 1rem = 10px */
+}
+
+/*Este indica la alineación del texto*/
+h1
+{
+    text-align: center;
+}
+
+/*El rem permite a que se adapte a diferentes tamaños de pantallas*/
+span
+{
+    font-size: 2rem;
+}

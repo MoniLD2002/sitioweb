@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <!--El preload es para que cargue la hoja de estilos-->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!--Encabezado-->
+    <header>
+        <h1>Mónica Giselle Barillas Paredes <span>Freelancer</span></h1>
+    </header>
+   
+    <!--Subtítulo y ubicación-->
+<section>
+    <h2>Desarrollo Web</h2>
+    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+        <circle cx="12" cy="11" r="3" />
+        <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+      </svg>
+    <p>Villa Nueva, Guatemala</p>
+</section>
+
+    <!--Navegación-->
+    <nav>
+        <a href="Index.html">Inicio</a>
+        <a href="Acerca.html">Acerca de mí</a>
+    </nav>
+
+    <!--Codigo para imagen-->
+    <img src="img/hero.jpg">
+
+    <!--Estructura principal-->
+    <main>
+        <h2>Mis Proyectos</h2>
+
+    <!--Secciones de la página-->
+        <section>
+            <h3>Proyecto Packet Tracer</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
+                <path d="M11.683 12.317l5.759 -5.759" />
+                <circle cx="5.5" cy="5.5" r="1.5" />
+                <circle cx="18.5" cy="5.5" r="1.5" />
+                <circle cx="18.5" cy="18.5" r="1.5" />
+                <circle cx="8.5" cy="15.5" r="4.5" />
+              </svg>
+            <p>Sed sed fermentum odio, nec euismod nisi. Curabitur eu dui aliquet, gravida enim at, tincidunt velit. Suspendisse consectetur turpis in dictum viverra. Suspendisse finibus nibh ac ante aliquam pulvinar.</p>
+        </section>
+
+        <section>
+            <h3>Proyecto SQL</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-indent-increase" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <line x1="20" y1="6" x2="9" y2="6" />
+                <line x1="20" y1="12" x2="13" y2="12" />
+                <line x1="20" y1="18" x2="9" y2="18" />
+                <path d="M4 8l4 4l-4 4" />
+              </svg>
+            <p>Sed sed fermentum odio, nec euismod nisi. Curabitur eu dui aliquet, gravida enim at, tincidunt velit. Suspendisse consectetur turpis in dictum viverra. Suspendisse finibus nibh ac ante aliquam pulvinar.</p>
+        </section>
+            
+        <section>
+            <h3>Proyecto PSeint</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-codesandbox" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M20 7.5v9l-4 2.25l-4 2.25l-4 -2.25l-4 -2.25v-9l4 -2.25l4 -2.25l4 2.25z" />
+                <path d="M12 12l4 -2.25l4 -2.25" />
+                <line x1="12" y1="12" x2="12" y2="21" />
+                <path d="M12 12l-4 -2.25l-4 -2.25" />
+                <path d="M20 12l-4 2v4.75" />
+                <path d="M4 12l4 2l0 4.75" />
+                <path d="M8 5.25l4 2.25l4 -2.25" />
+              </svg>
+            <p>Sed sed fermentum odio, nec euismod nisi. Curabitur eu dui aliquet, gravida enim at, tincidunt velit. Suspendisse consectetur turpis in dictum viverra. Suspendisse finibus nibh ac ante aliquam pulvinar.</p>    
+        </section>
+    </main>
+
+    <section>
+        <h2>Contacto</h2>
+    </section>
+    
+    <!--Formulario-->
+<form>
+    <!--El fieldset permite agrupar una serie de diferentes campos-->
+    <fieldset>
+        <legend>Contáctame llenando todos los campos</legend>
+
+        <!--El div permite agrupar cada uno de los diferentes input-->
+        <div>
+            <!--Nombre de campo del formulario-->
+            <label>Nombre</label>
+            <!--Este es para colocar el texto dentro del campo nombre-->
+            <input type="text" placeholder="Tu Nombre" >
+        </div>
+
+        <div>
+            <label>Teléfono</label>
+            <input type="tel" placeholder="Tu Teléfono"
+        </div>
+    
+        <div>
+            <label>Correo</label>
+            <input type="email" placeholder="Tu Email"
+        </div>
+
+        <div>
+            <label>Mensaje</label>
+            <!--Este sirve para poder escribir una gran cantidad de texto y poder cambiar el tamaño del recuadro-->
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <!--Aquí se colocó el botón de enviar-->
+            <Input type="submit" value="Enviar">
+        </div>
+    </fieldset>
+</form>
+
+
+    <!--Pie de página-->
+    <footer>
+        <p>Todos los derechos reservados. Mónica Giselle Barillas Paredes</p>
+    </footer>
+    
+</body>
+</html>
